@@ -22,12 +22,12 @@
     "autoload": {
         "files": ["src/functions_include.php"],
         "psr-4": {
-            "Graze\\GuzzleHttp\\JsonRpc\\": "src"
+            "Jucci1887\\GuzzleHttp\\JsonRpc\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Graze\\GuzzleHttp\\JsonRpc\\Test\\": "test/src"
+            "Jucci1887\\GuzzleHttp\\JsonRpc\\Test\\": "test/src"
         }
     },
     "require": {
