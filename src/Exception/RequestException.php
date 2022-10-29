@@ -12,11 +12,11 @@
  * @link http://github.com/graze/guzzle-jsonrpc
  */
 
-namespace Graze\GuzzleHttp\JsonRpc\Exception;
+namespace Jucci1887\GuzzleHttp\JsonRpc\Exception;
 
 use Exception;
-use Graze\GuzzleHttp\JsonRpc\Message\RequestInterface;
-use Graze\GuzzleHttp\JsonRpc\Message\ResponseInterface;
+use Jucci1887\GuzzleHttp\JsonRpc\Message\RequestInterface;
+use Jucci1887\GuzzleHttp\JsonRpc\Message\ResponseInterface;
 use GuzzleHttp\Exception\RequestException as HttpRequestException;
 use Psr\Http\Message\RequestInterface as HttpRequestInterface;
 use Psr\Http\Message\ResponseInterface as HttpResponseInterface;

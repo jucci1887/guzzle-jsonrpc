@@ -12,7 +12,7 @@
  * @link http://github.com/graze/guzzle-jsonrpc
  */
 
-namespace Graze\GuzzleHttp\JsonRpc\Message;
+namespace Jucci1887\GuzzleHttp\JsonRpc\Message;
 
 use Psr\Http\Message\MessageInterface as HttpMessageInterface;
 

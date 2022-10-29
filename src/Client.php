@@ -12,17 +12,17 @@
  * @link http://github.com/graze/guzzle-jsonrpc
  */
 
-namespace Graze\GuzzleHttp\JsonRpc;
+namespace Jucci1887\GuzzleHttp\JsonRpc;
 
-use Graze\GuzzleHttp\JsonRpc;
-use Graze\GuzzleHttp\JsonRpc\Message\MessageFactory;
-use Graze\GuzzleHttp\JsonRpc\Message\MessageFactoryInterface;
-use Graze\GuzzleHttp\JsonRpc\Message\RequestInterface;
-use Graze\GuzzleHttp\JsonRpc\Message\ResponseInterface;
-use Graze\GuzzleHttp\JsonRpc\Middleware\RequestFactoryMiddleware;
-use Graze\GuzzleHttp\JsonRpc\Middleware\RequestHeaderMiddleware;
-use Graze\GuzzleHttp\JsonRpc\Middleware\ResponseFactoryMiddleware;
-use Graze\GuzzleHttp\JsonRpc\Middleware\RpcErrorMiddleware;
+use Jucci1887\GuzzleHttp\JsonRpc;
+use Jucci1887\GuzzleHttp\JsonRpc\Message\MessageFactory;
+use Jucci1887\GuzzleHttp\JsonRpc\Message\MessageFactoryInterface;
+use Jucci1887\GuzzleHttp\JsonRpc\Message\RequestInterface;
+use Jucci1887\GuzzleHttp\JsonRpc\Message\ResponseInterface;
+use Jucci1887\GuzzleHttp\JsonRpc\Middleware\RequestFactoryMiddleware;
+use Jucci1887\GuzzleHttp\JsonRpc\Middleware\RequestHeaderMiddleware;
+use Jucci1887\GuzzleHttp\JsonRpc\Middleware\ResponseFactoryMiddleware;
+use Jucci1887\GuzzleHttp\JsonRpc\Middleware\RpcErrorMiddleware;
 use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\ClientInterface as HttpClientInterface;
 use GuzzleHttp\Promise\PromiseInterface;

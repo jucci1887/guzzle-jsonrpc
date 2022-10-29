@@ -12,9 +12,9 @@
  * @link http://github.com/graze/guzzle-jsonrpc
  */
 
-namespace Graze\GuzzleHttp\JsonRpc\Middleware;
+namespace Jucci1887\GuzzleHttp\JsonRpc\Middleware;
 
-use Graze\GuzzleHttp\JsonRpc\Message\MessageFactoryInterface;
+use Jucci1887\GuzzleHttp\JsonRpc\Message\MessageFactoryInterface;
 use Psr\Http\Message\RequestInterface as HttpRequestInterface;
 use Psr\Http\Message\ResponseInterface as HttpResponseInterface;
 

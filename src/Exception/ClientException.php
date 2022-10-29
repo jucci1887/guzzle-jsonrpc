@@ -12,7 +12,7 @@
  * @link http://github.com/graze/guzzle-jsonrpc
  */
 
-namespace Graze\GuzzleHttp\JsonRpc\Exception;
+namespace Jucci1887\GuzzleHttp\JsonRpc\Exception;
 
 class ClientException extends RequestException
 {

@@ -12,9 +12,9 @@
  * @link http://github.com/graze/guzzle-jsonrpc
  */
 
-namespace Graze\GuzzleHttp\JsonRpc;
+namespace Jucci1887\GuzzleHttp\JsonRpc;
 
-use Graze\GuzzleHttp\JsonRpc\Exception\JsonDecodeException;
+use Jucci1887\GuzzleHttp\JsonRpc\Exception\JsonDecodeException;
 
 /**
  * Wrapper for JSON decode that implements error detection with helpful

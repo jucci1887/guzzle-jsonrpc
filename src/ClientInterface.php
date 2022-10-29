@@ -12,10 +12,10 @@
  * @link http://github.com/graze/guzzle-jsonrpc
  */
 
-namespace Graze\GuzzleHttp\JsonRpc;
+namespace Jucci1887\GuzzleHttp\JsonRpc;
 
-use Graze\GuzzleHttp\JsonRpc\Message\RequestInterface;
-use Graze\GuzzleHttp\JsonRpc\Message\ResponseInterface;
+use Jucci1887\GuzzleHttp\JsonRpc\Message\RequestInterface;
+use Jucci1887\GuzzleHttp\JsonRpc\Message\ResponseInterface;
 use GuzzleHttp\Promise\PromiseInterface;
 
 interface ClientInterface
