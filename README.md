@@ -33,7 +33,7 @@ It can be installed in whichever way you prefer, but we recommend [Composer][pac
 
 ```php
 <?php
-use Graze\GuzzleHttp\JsonRpc\Client;
+use Jucci1887\GuzzleHttp\JsonRpc\Client;
 
 // Create the client
 $client = Client::factory('http://localhost:8000');
@@ -60,7 +60,7 @@ Asynchronous requests are supported by making use of the
 
 ```php
 <?php
-use Graze\GuzzleHttp\JsonRpc\Client;
+use Jucci1887\GuzzleHttp\JsonRpc\Client;
 
 // Create the client
 $client = Client::factory('http://localhost:8000');
@@ -94,8 +94,8 @@ option `[rpc_error => true]` in the client constructor.
 
 ```php
 <?php
-use Graze\GuzzleHttp\JsonRpc\Client;
-use Graze\GuzzleHttp\JsonRpc\Exception\RequestException;
+use Jucci1887\GuzzleHttp\JsonRpc\Client;
+use Jucci1887\GuzzleHttp\JsonRpc\Exception\RequestException;
 
 // Create the client with the `rpc_error`
 $client = Client::factory('http://localhost:8000', ['rpc_error'=>true]);
